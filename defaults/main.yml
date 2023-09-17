@@ -1,6 +1,6 @@
 ---
 # defaults file for wordpress-docker
-system_user: MyUser
+system_user: "{{ ansible_user }}"
 compose_project_dir: /home/{{ system_user }}/compose-wordpress
 compose_binary_dir: /usr/bin
 domain: foolcontrol.org

@@ -7,7 +7,6 @@ This Ansible playbook will Deploy & run Docker Compose project for WordPress ins
 * MySQL
 
 
-
 Role Variables
 --------------
 
@@ -28,7 +27,6 @@ wp_db_host: mysql
 ```
 
 If role is run without changing these, WordPress instance with Nginx virtual host as well as Database settings will be setup with these values. 
-
 
 
 Dependencies

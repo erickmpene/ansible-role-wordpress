@@ -54,7 +54,7 @@ Example Playbook
 - hosts: servers
   remote_user: "{{ system_user }}"
   roles:
-    - { role: AdnanHodzic.containerized-wordpress }}  
+    - { role: ansible-role-wordpress }}  
 ```
 
 License

@@ -1,4 +1,4 @@
-Ansible Role: Containerized WordPress
+Ansible Role: ansible-role-wordpress
 =========
 
 This Ansible playbook will Deploy & run Docker Compose project for WordPress instance. It will also configure Let's Encrypt certificates for specified domain. It consists of 3 separate containers running:
@@ -6,12 +6,7 @@ This Ansible playbook will Deploy & run Docker Compose project for WordPress ins
 * Nginx (enabled with Let's Encrypt HTTPS encryption)
 * MySQL
 
-This role was created as part of [containerized-wordpress-project](https://github.com/AdnanHodzic/containerized-wordpress-project)
 
-Requirements
-------------
-
-For this role to work, it is required to have have Docker and Docker Compose installed and setup. If you haven't done this already (manually), then you're required to install following role: [AdnanHodzic.docker-compose](https://galaxy.ansible.com/AdnanHodzic/docker-compose).
 
 Role Variables
 --------------

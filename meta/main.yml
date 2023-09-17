@@ -1,6 +1,6 @@
 galaxy_info:
-  author: Adnan Hodzic
-  description: Deploy & run Docker Compose project for WordPress instance (3 separate containers running WordPress, Nginx and MySQL) with Let's Encrypt HTTPS encryption
+  author: Erick MPENE
+  description: Deploy & run Docker Compose project for WordPress instance (3 separate containers running WordPress, Nginx and MySQL) 
 
   license: license (GPLv3)
 

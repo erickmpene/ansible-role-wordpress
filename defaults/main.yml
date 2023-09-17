@@ -3,7 +3,7 @@
 system_user: "{{ ansible_user }}"
 compose_project_dir: /home/{{ system_user }}/compose-wordpress
 compose_binary_dir: /usr/bin
-domain: foolcontrol.org
+domain: domain.org
 stage: staging
 wp_version: 5.2.4
 wp_db_user: admin
